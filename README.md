@@ -22,11 +22,11 @@ git --version
 
 Clone le projet avec l'adresse Https sur github dans un dossier en local:
 
-git clone 
+git clone https://github.com/CorentinLartigue/Ysport.git
 
 Se déplacer dans votre dossier:
 
-cd your-repo
+cd Ysport
 
 Lancer le projet:
 
