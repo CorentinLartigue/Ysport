@@ -52,4 +52,6 @@ B- Côté Back:
 
    6- Mettez la bonne configuration de votre bdd dans le fichier Ysport/Back/YSport/src/main/resources/application.properties
 
+   7- Lancer le projet ensuite ...
+
 
