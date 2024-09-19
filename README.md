@@ -48,10 +48,8 @@ B- Côté Back:
 
    4- Ensuite changer le sdk dans project structure ![image](https://github.com/user-attachments/assets/0efc534b-fb57-4f9a-ab4a-52f56949554e)
 
-   5- Mettez dans le fichier Ysport/Back/YSport/src/main/java/YSport/YSport/WebConfig.java au niveau du allowedOrigins l'adresse du localhost
+   5- Mettez dans le fichier WebConfig.java au niveau du allowedOrigins l'adresse du localhost
 
-   6- Mettez la bonne configuration de votre bdd dans le fichier Ysport/Back/YSport/src/main/resources/application.properties
+   6- Mettez la bonne configuration de votre bdd dans le fichier application.properties
 
    7- Lancer le projet ensuite ...
-
-
