@@ -1,0 +1,94 @@
+.input{
+    margin-left: 10px;
+}
+
+.leaflet-container{
+    height: 500px;
+    width: 750px;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.content{
+    min-height: calc(100vh - 4358px - 148px);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.filtres{
+    width: 800px;
+    max-width: 100%;
+    font-style: italic;
+
+}
+
+.filtres label{
+    font-family: Impact, fantasy;
+    background-color: black;
+    color:#D4B25E;
+
+
+}
+
+.filtres span{
+    font-family: Impact, fantasy;
+    background-color: black;
+    color:#D4B25E;
+}
+
+.filtres input.form-control {
+    border-radius: 70px;
+    background-color: #D4B25E;
+
+
+}
+
+.filtres select.form-select {
+    border-radius: 70px;
+    background-color: #D4B25E;
+
+}
+
+.filtres {
+    width: 1000px;
+    max-width: 100%;
+    background-color: #D4B25E;
+    font-style: italic;
+    border-radius: 70px;
+    border: 3px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-check {
+    margin-bottom: 0.5rem;
+}
+
+.form-check-label{
+    color:#D4B25E;
+}
+
+
+
+.form-check-input:checked {
+
+    background-color: black;
+    border-color: #D4B25E;
+    text-shadow: 2px 5px 5px #D4B25E;
+
+}
+
+
+.content {
+    height: 100vh; 
+    width: 175vh;
+}
+
+.MapContainer {
+    height: 100%; 
+}
+
+
+

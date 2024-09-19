@@ -1,0 +1,42 @@
+
+.content p{
+    text-align:  justify;
+    padding: 100px;
+    color:#D4B25E;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    align-items: start; 
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.carousel-section {
+    border: 2px solid #D4B25E; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    width: 100%; 
+    max-width: 900px; 
+    height: 500px; 
+}
+
+.carousel-inner {
+    height: 100%; /* Assure que l'intérieur du carrousel utilise toute la hauteur disponible */
+}
+
+.carousel-inner img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; /* Conserve les proportions des images tout en les remplissant */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color:#D4B25E;
+    
+}
+
