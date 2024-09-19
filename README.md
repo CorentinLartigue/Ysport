@@ -30,9 +30,26 @@ cd Ysport
 
 Lancer le projet:
 
-1-   npm install
+A- Côté Front:
 
-2-   npm run dev
+   1-   npm install
+   
+   2-   npm run dev
+   
+   3-   Ouvrir le projet dans le navigateur à l'adresse du localhost
 
-3-   Ouvrir le projet dans le navigateur à l'adresse http://localhost:3000
+B- Côté Back:
+
+   1- Créer une bdd avec un SGBD sans la remplir
+
+   2- Lancer Intellij community (pour l'installer prenez bien la version community en dessous: https://www.jetbrains.com/idea/download/?section=windows) 
+
+   3- Ouvrer votre projet à la racine du dossier contenant le back Ysport/Back/YSport
+
+   4- Ensuite changer le sdk dans project structure ![image](https://github.com/user-attachments/assets/0efc534b-fb57-4f9a-ab4a-52f56949554e)
+
+   5- Mettez dans le fichier Ysport/Back/YSport/src/main/java/YSport/YSport/WebConfig.java au niveau du allowedOrigins l'adresse du localhost
+
+   6- Mettez la bonne configuration de votre bdd dans le fichier Ysport/Back/YSport/src/main/resources/application.properties
+
 
